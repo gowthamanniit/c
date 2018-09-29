@@ -1,0 +1,131 @@
+how to use variable and datatypes?
+
+
+	datatypes:
+	=========
+
+		int a;		-  numbers only (ex: 30000) (rangle : 2 bytes: -32768 to 32767)   
+		float b;	-  numbers with 6 decimal places (ex: 123.435345)
+		char c;		-  only one char from keyboard.(any key)
+		
+		=========================
+
+		long l;		- numbers only (ex:200000) (range : 4 bytes : -2147483648 to 2147483647)
+							                       (4294967296)
+		double d;	- numbers with decimal places (ex: 1.1234567890123456)
+		
+		char var[10];   - position (0 to 9 ) total : 10 char's.
+		
+
+	hint :
+		1 byte = 8 bits
+
+
+	variables:
+	==========
+		a  (integer variable)
+		b   (float variable)	
+		c   (char variable)
+		var (char array variables) (one or more char's);
+
+	def:  temporary memory allocation(RAM).  
+	      the value change during execution of the program.
+	
+	ex:
+
+		int a=10;
+
+		int(datatype)
+		a(variablename)
+		10(integer value);
+	
+	variable + printf statments:
+	============================
+
+	syntax:
+		printf(" escape sequence + any text  + control string ",variablename);
+
+			\n\t\b\0\"         ..........  %d%ld%f%lf%c$s	
+			=============================================
+	ex:
+		printf("\n a value= %d",a);	
+		printf("\n float b value: %f",b);
+		printf("\n char c value: %c",c);
+		printf("\n long l value: %ld",l);
+		printf("\n double value: %lf",d);
+		printf("\n string value: %s",var);
+
+		printf("\n a = %d b=%f ",a,b);
+
+	variable name rules:
+	===================
+
+		*) first letter or char (a-z) or (_) underscore.
+
+		*) followed chars (0-9)
+		
+		*) specical char not allowed (space ~!@#$%$^&(())
+
+	wrong or invalid variablename:
+	==============================
+		1a
+		mark 1
+		mark@2
+	valid variablename:
+	===================
+		a1
+		mark_1
+		mark_2
+		_mark1
+
+	multiple variables declaration in one line:
+	==========================================
+
+		int a=10,b=20,c;  // varaible declare + assign 
+
+		c=a+b;
+
+	or
+		int a; // variable only declaration
+		int b;
+		int c;
+		a=10; // assign or store
+		b=20;
+		c=a+b; // calcuation 
+
+	program format structure using variable:
+	========================================
+
+		1) header file
+		2) main function
+		3) open
+		4) variable declaration (minimum one line or maximum many)
+		5) clear screen
+		6) .......assign or store, calculation 
+		7) dispaly or printf
+		8) getch()
+		9) close
+
+	ex:
+		#include<stdio.h>
+		#include<conio.h>
+		void main()
+		{
+			int a,b,c;
+			clrscr();
+			a=10;
+			b=20;
+			c=a+b;
+			printf("\n a value = %d",a);
+			printf("\n b value = %d",b);
+			printf("\n total = %d",c);
+			getch();
+		}
+
+
+
+		
+
+
+		
+			
