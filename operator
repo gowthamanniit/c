@@ -1,0 +1,72 @@
+
+	c operator:
+	===========
+	
+		def: operator is a symbol.(+ - ++ * / > < .....)	
+		     it is used to perform some operations ex: arithmetic,relational,..
+
+
+	1) Arithmetic operator
+		+	addition
+		-	subtraction
+		*	mulitiplication
+		/	division (quotient )
+		%	modules (remainder value )
+
+
+	2) Relational operator
+	
+		<
+		<=
+		>
+		>=
+		==
+		!=
+	
+	3) logical operator
+	
+		&& 	logical and
+		||	logical or
+		!	logical not
+
+	4) assignment operator
+
+		=
+		+=
+		-=
+		*=
+		/=
+		%=
+	5) increment/decrement operator
+
+		++  (increment operator)	
+		--  (decrement operator)
+
+		two types:
+			
+			pre increment/decrement ex: ++a; --a;
+
+			post increment/decrement: ex: a++; a--;
+
+	6) conditional operator
+			
+			exp1? exp2 : exp3;
+
+		expresson:
+			a
+			a<b
+			a>=b
+			a>b?a:b;
+
+			int a=10,b=20;
+			ans=a>b?a:b;	
+
+	7) bitwise operator
+
+		&	bitwise and
+		|	bitwise or
+		<<	left shift
+		>> 	right shift	
+	
+			
+	
