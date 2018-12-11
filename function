@@ -1,0 +1,28 @@
+
+	function:
+	---------
+
+	def: self contained programming structure.
+		
+
+	function 2 types:
+
+		*) built in function
+			readymade (already system)
+			ex:
+			string function (strlen,strrev,strcpy,strcmp,strcat,strlwr,strupr)
+			math function (pow,sqr,abs,sin,...)
+		*) user define function
+			user own create
+				
+			ex:
+			void display()
+
+			4 types of user defined function
+
+			1) no arg no return type
+			2) no arg with return type
+			3) with arg no return type
+			4) with arg with return type
+
+			
